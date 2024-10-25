@@ -1,3 +1,3 @@
-export function mostrarHeroe(res, mensaje){
-    res.send(mensaje);
+export function renderizarHeroe(res, heroe){
+    res.send(JSON.stringify({heroe}, null, 2));
 }
